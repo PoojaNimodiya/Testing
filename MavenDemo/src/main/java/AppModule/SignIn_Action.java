@@ -10,7 +10,7 @@ public class SignIn_Action {
 	WebDriver driver;
 	static WebElement element = null;
 	
-	////This Method gets called in Modular_TC class. This method will complete the user login. 
+	//This Method gets called in Modular_TC class. This method will complete the user login. 
 	
 	/*public static WebElement Execute(WebDriver driver){
 		

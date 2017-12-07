@@ -9,7 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import static org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
-import static org.apache.poi.ss.usermodel.Row.RETURN_NULL_AND_BLANK;
+//import static org.apache.poi.ss.usermodel.Row.RETURN_NULL_AND_BLANK;
 
 public class ExcelUtils {
 	
@@ -55,7 +55,7 @@ public class ExcelUtils {
 	   
 	   try{
 		    Row = ExcelWSheet.getRow(RowNum);
-		    Cell = Row.getCell(ColNum, Row.RETURN_NULL_AND_BLANK)
+		    //Cell = Row.getCell(ColNum, Row.RETURN_NULL_AND_BLANK)
 		   
 	   }
 	   catch(Exception e){
@@ -68,4 +68,4 @@ public class ExcelUtils {
    }
    
    
-}
+
