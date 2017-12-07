@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="8393" started-at="2017-12-06T12:07:33Z" finished-at="2017-12-06T12:07:41Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8393" started-at="2017-12-06T12:07:33Z" finished-at="2017-12-06T12:07:41Z">
+      <class name="MavenDemoGrpID.MavenDemo.AmazonTest">
+        <test-method status="PASS" signature="normalLogin()[pri:0, instance:MavenDemoGrpID.MavenDemo.AmazonTest@180bc464]" name="normalLogin" duration-ms="8362" started-at="2017-12-06T17:37:33Z" finished-at="2017-12-06T17:37:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- normalLogin -->
+      </class> <!-- MavenDemoGrpID.MavenDemo.AmazonTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
